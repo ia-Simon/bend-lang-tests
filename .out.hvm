@@ -1,0 +1,12 @@
+@Point = (a (b ((a (b c)) c)))
+
+@dist = ((@dist__C1 a) a)
+
+@dist__C0 = ($(:[-] $(a {$(:[*] $(c $(:[+] $(e $([^4063232] f))))) c})) ($(:[-] $(b {$(:[*] $(d e)) d})) (a (b f))))
+
+@dist__C1 = (a (b ((@dist__C0 (a (b c))) c)))
+
+@main = c
+  & @dist ~ (a (b c))
+  & @Point ~ (0 (0 a))
+  & @Point ~ (1 (0 b))
